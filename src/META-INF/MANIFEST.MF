@@ -1,0 +1,16 @@
+Name: STATS KERNEL DENSITY
+Dialog-Specs: STATS_KERNEL_DENSITY.spd
+Command-Specs: STATS_KERNEL_DENSITY.xml
+Code-Files: STATS_KERNEL_DENSITY.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Fit kernel-smoothed distributions
+Description: This procedure calculates kernel-smoothed densities.  It 
+ can save the densities as datasets and plot them.  The calculations a
+ re similar to the smooths available via GPL.
+Author: JKP, IBM SPSS
+Version: 1.0.5
+Product-Version: 18
+Date: 03/03/12
+Categories: graphics
+Plugins: R
+Translation-Catalogues: lang
