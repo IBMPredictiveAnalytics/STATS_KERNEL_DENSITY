@@ -1,0 +1,102 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_KERNEL_DENSITY.R:53
+msgid "There must be the same number of output dataset names as variables"
+msgstr ""
+"Il doit y avoir autant de noms de jeu de données de sortie que de variables"
+
+#: STATS_KERNEL_DENSITY.R:78
+msgid "The distribution could not be fit.  Variable: %s, Kernel: %s"
+msgstr ""
+"La distribution n'a pas pu être ajustée. Variable : %s, Noyau : %s"
+
+#: STATS_KERNEL_DENSITY.R:93
+msgid "Density\nVariable: %s, Kernel = %s"
+msgstr ""
+"Variable de\ndensité : %s, Noyau = %s"
+
+#: STATS_KERNEL_DENSITY.R:101
+msgid "Minimum"
+msgstr ""
+"Minimum"
+
+#: STATS_KERNEL_DENSITY.R:101
+msgid "Percentile 25"
+msgstr ""
+"25e percentile"
+
+#: STATS_KERNEL_DENSITY.R:101
+msgid "Median"
+msgstr ""
+"Médiane"
+
+#: STATS_KERNEL_DENSITY.R:102
+msgid "Mean"
+msgstr ""
+"Moyenne"
+
+#: STATS_KERNEL_DENSITY.R:102
+msgid "Percentile 75"
+msgstr ""
+"75e percentile"
+
+#: STATS_KERNEL_DENSITY.R:102
+msgid "Maximum"
+msgstr ""
+"Maximum"
+
+#: STATS_KERNEL_DENSITY.R:104
+#: STATS_KERNEL_DENSITY.R:107
+msgid "Distribution Statistics"
+msgstr ""
+"Statistiques de distribution"
+
+#: STATS_KERNEL_DENSITY.R:106
+msgid "Kernel Smooth: %s, Number of cases: %s, Bandwidth: %s"
+msgstr ""
+"Lisseur de noyau : %s, Nombre d'observations : %s, Largeur de bande : %s"
+
+#: STATS_KERNEL_DENSITY.R:108
+msgid "Variables"
+msgstr ""
+"Variables"
+
+#: STATS_KERNEL_DENSITY.R:109
+msgid "Statistics"
+msgstr ""
+"Statistiques"
+
+#: STATS_KERNEL_DENSITY.R:126
+msgid "Could not create dataset %s.  It may already exist"
+msgstr ""
+"Impossible de créer le jeu de données %s. Il existe peut-être déjà."
+
+#: STATS_KERNEL_DENSITY.R:175
+msgid "End of procedure"
+msgstr ""
+"Fin de la procédure"
+
+#: STATS_KERNEL_DENSITY.R:202
+msgid "Message Number"
+msgstr ""
+"Numéro de message"
+
+
