@@ -1,0 +1,102 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_KERNEL_DENSITY.R:53
+msgid "There must be the same number of output dataset names as variables"
+msgstr ""
+"Имен выходных наборов данных должно быть столько же, сколько переменных."
+
+#: STATS_KERNEL_DENSITY.R:78
+msgid "The distribution could not be fit.  Variable: %s, Kernel: %s"
+msgstr ""
+"Распределение не удалось подогнать. Переменная: %s, Ядро: %s"
+
+#: STATS_KERNEL_DENSITY.R:93
+msgid "Density\nVariable: %s, Kernel = %s"
+msgstr ""
+"Переменная\nплотности: %s, Ядро = %s"
+
+#: STATS_KERNEL_DENSITY.R:101
+msgid "Minimum"
+msgstr ""
+"Минимум"
+
+#: STATS_KERNEL_DENSITY.R:101
+msgid "Percentile 25"
+msgstr ""
+"25-я процентиль"
+
+#: STATS_KERNEL_DENSITY.R:101
+msgid "Median"
+msgstr ""
+"Медиана"
+
+#: STATS_KERNEL_DENSITY.R:102
+msgid "Mean"
+msgstr ""
+"Среднее"
+
+#: STATS_KERNEL_DENSITY.R:102
+msgid "Percentile 75"
+msgstr ""
+"75-я процентиль"
+
+#: STATS_KERNEL_DENSITY.R:102
+msgid "Maximum"
+msgstr ""
+"Максимум"
+
+#: STATS_KERNEL_DENSITY.R:104
+#: STATS_KERNEL_DENSITY.R:107
+msgid "Distribution Statistics"
+msgstr ""
+"Статистика распределения"
+
+#: STATS_KERNEL_DENSITY.R:106
+msgid "Kernel Smooth: %s, Number of cases: %s, Bandwidth: %s"
+msgstr ""
+"Сглаживание ядра: %s, Число наблюдений: %s, Ширина полосы: %s"
+
+#: STATS_KERNEL_DENSITY.R:108
+msgid "Variables"
+msgstr ""
+"Переменные"
+
+#: STATS_KERNEL_DENSITY.R:109
+msgid "Statistics"
+msgstr ""
+"Статистика"
+
+#: STATS_KERNEL_DENSITY.R:126
+msgid "Could not create dataset %s.  It may already exist"
+msgstr ""
+"Не удалось создать набор данных %s. Возможно, он уже существует"
+
+#: STATS_KERNEL_DENSITY.R:175
+msgid "End of procedure"
+msgstr ""
+"Конец процедуры"
+
+#: STATS_KERNEL_DENSITY.R:202
+msgid "Message Number"
+msgstr ""
+"Номер сообщения"
+
+
