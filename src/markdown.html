@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS KERNEL DENSITY Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+
+<h1>STATS KERNEL DENSITY Extension Command</h1>
+
+<p>Produce a dataset of the smoothed
+density, a summary table, and an optional plot.</p>
+<div class="syntax">
+<p>STATS KERNEL DENSITY VARIABLES=<em>variables</em><sup>&#42;</sup><br/>
+KERNEL=EPANECHNIKOV<sup>&#42;&#42;</sup> or GAUSSIAN or RECTANGULAR or
+    TRIANGULAR or BIWEIGHT or COSINE or OPTCOSINE<br/>
+OUTPUTDS=<em>dsnames</em> N=<em>integer</em> BANDWIDTHFACTOR=<em>number</em></p>
+
+<p>/OPTIONS PLOT=YES<sup>&#42;&#42;</sup> or NO</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS IRM /HELP prints this information and does nothing else.</p>
+
+<pre class="example"><code>STATS KERNEL DENSITY VARIABLES=y1 y2
+OUTPUTDS=y1dataset y2dataset.
+</code></pre>
+
+<p><strong>VARIABLES</strong> specifies the variables whose distributions will be calculated.
+Missing values are automatically discarded separately for each variable.</p>
+
+<p><strong>KERNEL</strong> specifies the kernel to be used for smoothing.</p>
+
+<p><strong>BANDWIDTHFACTOR</strong> specifies a multiplier for the automatic bandwidth.  The
+default is 1.</p>
+
+<p><strong>N</strong> specifies at how many points the probability is calculated.  The default is 512.</p>
+
+<p><strong>OUTPUTDS</strong> specifies the names for new output datasets to hold the calculated
+values.  If specified, there must be as many dataset names as variables.  The
+dataset names must not already be in use. There will be N cases in each dataset.
+If OUTPUTDS is not specified, no datasets will be created.</p>
+
+<p>If any new datasets are created, and the active dataset is unnamed,
+it will be closed automatically as per standard rules.</p>
+
+<h2>OPTIONS</h2>
+
+<p>PLOT specifies whether or not to plot the density function.  A separate
+plot is produced for each variable.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
