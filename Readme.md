@@ -1,11 +1,11 @@
 # STATS KERNEL DENSITY
 ## Fit kernel-smoothed distributions
- This procedure calculates kernel-smoothed densities.  It 
+ This procedure calculates kernel-smoothed densities.  It can save the densities as datasets and plot them.  The calculations are similar to the smooths available via GPL.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
 
 ---
 Installation intructions
